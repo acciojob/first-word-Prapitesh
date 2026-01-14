@@ -10,6 +10,7 @@ function firstWord(s) {
   return s.substring(0, index);
 }
 
+
 // Do not change the code below
 
 const s = prompt("Enter String:");
