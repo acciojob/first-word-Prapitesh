@@ -1,4 +1,5 @@
 function firstWord(s) {
+	s = s.trim(); 
   if (s === "") return "";
 
   let index = s.indexOf(" ");
@@ -6,9 +7,11 @@ function firstWord(s) {
   if (index === -1) {
     return s;
   }
+	
 
   return s.substring(0, index);
 }
+
 
 
 // Do not change the code below
